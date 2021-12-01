@@ -54,3 +54,6 @@
 ;; they are implemented.
 (after! rustic
   (setq rustic-lsp-server 'rls))
+
+;; (after! gcmh
+;;   (setq gcmh-high-cons-threshold 536807912))

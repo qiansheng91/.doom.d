@@ -74,3 +74,5 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+(setq! org-download-method 'directory)
+(setq-default org-download-image-dir "~/Documents/Media")
